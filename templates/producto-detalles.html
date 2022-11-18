@@ -1,0 +1,105 @@
+<!-- Navegation-->
+<nav class="nav">
+  <div class="nav__center container">
+      <a href="#!">
+          <div class="nav__logo">
+              <h1>BABYS <span>SENIORS</span></h1>
+          </div>
+      </a>
+      <ul class="nav__list">
+          <a class="nav__link" href="#!">INICIO</a>
+      </ul>
+      <ul class="nav__list">
+          <a class="nav__link" href="#!catalogo-productos">CATALOGO</a>
+      </ul>
+      <ul class="nav__list">
+          <div class="carrito__icon" ng-click="start()">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="item__total">{{getTotalAmountCarrito()}}</span>
+          </div>
+      </ul>
+  </div>
+</nav>
+
+<main class="container detalles" id="detalles">
+  <article class="detalle-grid">
+    <img ng-src={{detalleProducto.image}} alt="" class="img-fluid">
+    <div class="detalle-content">
+      <h1>{{detalleProducto.name}}</h1>
+      <p class="stock">Stock: {{detalleProducto.stock}}</p>
+      <p class="price">S/ {{detalleProducto.price}}</p>
+      <p class="description">
+        <b>Descripcion:</b> <p>
+          {{detalleProducto.description}}
+        </p>
+      </p>
+      <div class="bottom">
+        <div class="btn__group">
+          <a class="btn addToCart" ng-click="addToCart(detalleProducto.id)">Añadir al carrito</a>
+        </div>
+      </div>
+    </div>
+  </article>
+</main>
+<!-- Carrito-->
+<section class="carrito__overlay">
+  <div class="carrito">
+    <span class="close__carrito">
+      <i class="fa-solid fa-xmark"></i>
+    </span>
+    <h1>Su Carrito</h1>
+
+    <div class="carrito__center">
+      <!-- producto en carrito  -->
+      <div class="carrito__item" ng-repeat="item in carrito">
+        <img ng-src={{item.image}} alt="">
+        <div>
+          <h3>{{item.name}}</h3>
+          <p class="price">S/ {{item.total}}</p>
+        </div>
+        <div>
+          <span>
+            <i class="fa-solid fa-angle-up" ng-click="increaseAmount(item.id)"></i>
+          </span>
+          <p>{{item.amount}}</p>
+          <span>
+            <i class="fa-solid fa-angle-down" ng-click="decreaseAmount(item.id)"></i>
+          </span>
+        </div>
+        <div>
+          <span class="remove__item">
+            <i class="fa-solid fa-trash" ng-click="removeItemCart(item.id)"></i>
+          </span>
+        </div>
+      </div>
+      <!-- producto en carrito  -->
+    </div>
+    <span ng-if="carrito.length > 0">
+      <div class="carrito__footer">
+          <h3>Total: <span class="carrito__total">S/ {{getTotalPriceCarrito()}}</span></h3>
+          <button class="clear__carrito btn" ng-click="removeCart()">
+              remover carrito
+          </button>
+          <a href="#!pagos" class="btn__pago">
+            <button class="clear__carrito btn">
+                Pagar
+            </button>
+        </a>
+      </div>
+    </span>
+    <span ng-if="!carrito.length > 0">
+        <div class="goto_products">
+          <i class="fa-solid fa-cart-shopping" style="font-size: 5rem; color: #00bbe6;"></i>
+          <h3>¡Tu carrito de compras esta vacío!</h3>
+            <button class="btn" ng-click="hidden()">
+                Continuar aquí
+            </button>
+            <a href="#!catalogo-productos">
+              <button class="btn">
+                Ver todos productos
+              </button>
+            </a>
+        </div>
+    </span>
+  </div>
+</section>

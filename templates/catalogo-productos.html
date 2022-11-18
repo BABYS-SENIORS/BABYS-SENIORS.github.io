@@ -1,0 +1,129 @@
+<!-- Navegation-->
+<nav class="nav">
+    <div class="nav__center container">
+        <a href="#!">
+            <div class="nav__logo">
+                <h1>BABYS <span>SENIORS</span></h1>
+            </div>
+        </a>
+        <ul class="nav__list">
+            <a class="nav__link" href="#!">INICIO</a>
+        </ul>
+        <ul class="nav__list">
+            <a class="nav__link" href="#!catalogo-productos">CATALOGO</a>
+        </ul>
+        <ul class="nav__list">
+            <div class="carrito__icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="item__total">{{getTotalAmountCarrito()}}</span>
+            </div>
+        </ul>
+    </div>
+</nav>
+<!-- Filter -->
+<section class="filter">
+    <div class="grid">
+        <div class="div">
+            <label for="buscar">
+                <span>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+            </label>
+            <input type="text" id="buscar" placeholder="Buscar productos...">
+        </div>
+        <div class="category">
+            <select ng-model="category">
+                <option value="" selected>Todos</option>
+                <option value="camisas">Camisas</option>
+                <option value="polos">Polos</option>
+                <option value="shorts">Shorts</option>
+                <option value="jeans">Jeans</option>
+                <option value="pantalones">Pantalones</option>
+                <option value="casacas">Casacas</option>
+                <option value="poleras">Poleras</option>
+            </select>
+        </div>
+    </div>
+</section>
+<!-- Productos -->
+<div class="container__products">
+<section class="productos">
+    <div class="productos__center">
+        <!-- ------------producto----------------- -->
+        <div class="producto" ng-repeat="producto in getProductCategory(category)">
+            <div class="image__container">
+                <img ng-src={{producto.image}} alt="">
+            </div>
+            <div class="producto__footer">
+                <h1>{{producto.name}}</h1>
+                <div class="stock">Stock: {{producto.stock}}</div>
+                <div class="price">S/ {{producto.price}}</div>
+            </div>
+            <div class="bottom">
+                <div class="btn__group">
+                    <a class="btn addToCart" ng-click="addToCart(producto.id)">Añadir carrito</a>
+                    <a href="#!detalle-producto/{{producto.id}}" class="btn view">Ver detalle</a>
+                </div>
+            </div>
+        </div>
+        <!-- ------------producto----------------- -->
+    </div>
+</section>
+</div>
+<!-- Carrito-->
+<section class="carrito__overlay">
+    <div class="carrito">
+        <span class="close__carrito">
+            <i class="fa-solid fa-xmark"></i>
+        </span>
+        <h1>Su Carrito</h1>
+
+        <div class="carrito__center">
+            <!-- producto en carrito  -->
+            <div class="carrito__item" ng-repeat="item in carrito">
+                <img ng-src={{item.image}} alt="">
+                <div>
+                    <h3>{{item.name}}</h3>
+                    <p class="price">S/ {{item.total}}</p>
+                </div>
+                <div>
+                    <span>
+                        <i class="fa-solid fa-angle-up" ng-click="increaseAmount(item.id)"></i>
+                    </span>
+                    <p>{{item.amount}}</p>
+                    <span>
+                        <i class="fa-solid fa-angle-down" ng-click="decreaseAmount(item.id)"></i>
+                    </span>
+                </div>
+                <div>
+                    <span class="remove__item">
+                        <i class="fa-solid fa-trash" ng-click="removeItemCart(item.id)"></i>
+                    </span>
+                </div>
+            </div>
+            <!-- producto en carrito  -->
+        </div>
+        <span ng-if="carrito.length > 0">
+            <div class="carrito__footer">
+                <h3>Total: <span class="carrito__total">S/ {{getTotalPriceCarrito()}}</span></h3>
+                <button class="clear__carrito btn" ng-click="removeCart()">
+                    remover carrito
+                </button>
+                <a href="#!pagos" class="btn__pago">
+                    <button class="clear__carrito btn">
+                        Pagar
+                    </button>
+                </a>
+            </div>
+        </span>
+        <span ng-if="!carrito.length > 0">
+            <div class="goto_products">
+                <i class="fa-solid fa-cart-shopping" style="font-size: 5rem; color: #00bbe6;"></i>
+                <h3>¡Tu carrito de compras esta vacío!</h3>
+                <button class="btn" ng-click="hidden()">
+                    Seguir comprando
+                </button>
+            </div>
+        </span>
+    </div>
+</section>

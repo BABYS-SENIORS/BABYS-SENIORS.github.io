@@ -1,0 +1,322 @@
+[{
+	"id": 1,
+	"name": "Camisa Madison Tropical Hombre",
+	"price": 41.96,
+	"stock": 7,
+	"image": "images/products/1.webp",
+	"category": "camisas",
+	"description": "Compra Online tu Camisa Madison Tropical Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+}, {
+	"id": 2,
+	"name": "Polo Amc Canesu Hombre",
+	"price": 29.95,
+	"stock": 15,
+	"image": "images/products/2.webp",
+	"category": "polos",
+	"description": "Compra Online tu Polo Amc Canesu Hombre y conviértelo en pieza clave de tu outfit esta temporada de otoño invierno."
+}, {
+	"id": 3,
+	"name": "Short Hypnotic Nylon Hombre",
+	"price": 55.96,
+	"stock": 13,
+	"image": "images/products/3.webp",
+	"category": "shorts",
+	"description": "Compra Online tu Short Hypnotic Nylon Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+}, {
+	"id": 4,
+	"name": "Jean Malabar Loose Fit Celeste Hombre",
+	"price": 90.30,
+	"stock": 15,
+	"image": "images/products/4.webp",
+	"category": "jeans",
+	"description": "Compra Online tu Jean Malabar Loose Fit Celeste Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+}, {
+	"id": 5,
+	"name": "Pantalón Drill Pitillo D3",
+	"price": 49.95,
+	"stock": 25,
+	"image": "images/products/5.webp",
+	"category": "pantalones",
+	"description": "Pantalón de drill de color, corte pitillo. Cuenta con detalle de bolsillos en delantero y espalda."
+}, {
+	"id": 6,
+	"name": "Casaca Aereal Block3 Ci Hombre",
+	"price": 89.40,
+	"stock": 10,
+	"image": "images/products/6.webp",
+	"category": "casacas",
+	"description": "Compra Online tu Casaca Aereal Block3 Ci Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+}, {
+	"id": 7,
+	"name": "Camisa Amc Checkflannel Hombre",
+	"price": 53.97,
+	"stock": 4,
+	"image": "images/products/7.webp",
+	"category": "camisas",
+	"description": "Compra Online tu Camisa Amc Checkflannel Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+}, {
+	"id": 8,
+	"name": "Polo Hombre The Royal Parks British Detalle Mangas",
+	"price": 53.97,
+	"stock": 9,
+	"image": "images/products/8.webp",
+	"category": "polos",
+	"description": "Compra Online tu Polo Hombre The Royal Parks British Detalle Mangas y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 9,
+	"name": "Jean Hypnotic Pocket Hombre",
+	"price": 104.30,
+	"stock": 14,
+	"image": "images/products/9.webp",
+	"category": "jeans",
+	"description": "Compra Online tu Jean Hypnotic Pocket Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 10,
+	"name": "Polera Hypnotic Bolzip Hombre",
+	"price": 77.40,
+	"stock": 12,
+	"image": "images/products/10.webp",
+	"category": "poleras",
+	"description": "Compra Online tu Polera Hypnotic Bolzip Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano.."
+},{
+	"id": 11,
+	"name": "Casaca Aereal Bomberpole Hombre",
+	"price": 101.40,
+	"stock": 8,
+	"image": "images/products/11.webp",
+	"category": "casacas",
+	"description": "Compra Online tu Casaca Aereal Bomberpole Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 12,
+	"name": "Polera Aereal Blocksport Hombre",
+	"price": 89.40,
+	"stock": 22,
+	"image": "images/products/12.webp",
+	"category": "poleras",
+	"description": "Compra Online tu Polera Aereal Blocksport Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 13,
+	"name": "Camisa Aereal Rayas Hombre",
+	"price": 48.96,
+	"stock": 2,
+	"image": "images/products/13.webp",
+	"category": "camisas",
+	"description": "Compra Online tu Camisa Aereal Rayas Hombre y conviértelo en pieza clave de tu outfit esta primavera verano."
+},{
+	"id": 14,
+	"name": "Jean Kis 4",
+	"price": 79.95,
+	"stock": 5,
+	"image": "images/products/14.webp",
+	"category": "jeans",
+	"description": "Compra Online tu Jean Kis y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 15,
+	"name": "Short Aereal Corduroy Hombre",
+	"price": 71.96,
+	"stock": 8,
+	"image": "images/products/15.webp",
+	"category": "shorts",
+	"description": "Compra Online tu Short Aereal Corduroy Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 16,
+	"name": "Camisa Denim Hombre",
+	"price": 55.96,
+	"stock": 11,
+	"image": "images/products/16.webp",
+	"category": "camisas",
+	"description": "Compra Online tu Camisa Denim Hombre y conviértelo en pieza clave de tu outfit esta temporada de otoño invierno."
+},{
+	"id": 17,
+	"name": "Polo Hombre The Royal Parks British Bolsillo",
+	"price": 53.97,
+	"stock": 34,
+	"image": "images/products/17.webp",
+	"category": "polos",
+	"description": "Compra Online tu Polo Hombre The Royal Parks British Bolsillo y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 18,
+	"name": "Jean Malabar Tailor Talle Alto Hombre",
+	"price": 90.30,
+	"stock": 12,
+	"image": "images/products/18.webp",
+	"category": "jeans",
+	"description": "Compra Online tu Jean Malabar Tailor Talle Alto Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 19,
+	"name": "Polo Hypnotic Scult Art Hombre",
+	"price": 23.97,
+	"stock": 15,
+	"image": "images/products/19.webp",
+	"category": "polos",
+	"description": "Compra Online tu Polo Hypnotic Scult Art Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 20,
+	"name": "Pantalón Drill Pitillo D2",
+	"price": 79.95,
+	"stock": 9,
+	"image": "images/products/20.webp",
+	"category": "pantalones",
+	"description": "Pantalón de drill de color, corte pitillo. Cuenta con detalle de bolsillos en delantero y espalda."
+},{
+	"id": 21,
+	"name": "Polera Hypnotic Pasteles Hombre",
+	"price": 59.97,
+	"stock": 4,
+	"image": "images/products/21.webp",
+	"category": "poleras",
+	"description": "Compra Online tu Polera Hypnotic Pasteles Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 22,
+	"name": "Polo Aereal Tank Rayas Hombre",
+	"price": 23.97,
+	"stock": 6,
+	"image": "images/products/22.webp",
+	"category": "polos",
+	"description": "Compra Online tu Polo Aereal Tank Rayas Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 23,
+	"name": "Polera Aereal Mecanic Hombre",
+	"price": 53.97,
+	"stock": 8,
+	"image": "images/products/23.webp",
+	"category": "poleras",
+	"description": "Compra Online tu Polera Aereal Mecanic Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 24,
+	"name": "Jean Corte Recto",
+	"price": 49.95,
+	"stock": 17,
+	"image": "images/products/24.webp",
+	"category": "jeans",
+	"description": "Jeans boca recta, cuenta con bolsillos en el delantero y espalda. Cuenta con detalle de hilo contraste."
+},{
+	"id": 25,
+	"name": "Casaca Hypnotic Bigblock Hombre",
+	"price": 101.40,
+	"stock": 13,
+	"image": "images/products/25.webp",
+	"category": "casacas",
+	"description": "Compra Online tu Casaca Hypnotic Bigblock Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 26,
+	"name": "Polera Amc Polh Forest Hombre",
+	"price": 59.97,
+	"stock": 16,
+	"image": "images/products/26.webp",
+	"category": "poleras",
+	"description": "Compra Online tu Polera Amc Polh Forest Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 27,
+	"name": "Pantalón Chino Con Correa Royal Parks1 Hombre",
+	"price": 109.00,
+	"stock": 4,
+	"image": "images/products/27.webp",
+	"category": "pantalones",
+	"description": "Pantalón Chino Con Correa Royal Parks1."
+},{
+	"id": 28,
+	"name": "Polo Hypnotic Ranglanre Hombre",
+	"price": 17.97,
+	"stock": 9,
+	"image": "images/products/28.webp",
+	"category": "polos",
+	"description": "Compra Online tu Polo Hypnotic Ranglanre Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 29,
+	"name": "Short Amc Jogger Hombre",
+	"price": 71.96,
+	"stock": 11,
+	"image": "images/products/29.webp",
+	"category": "shorts",
+	"description": "Compra Online tu Short Amc Jogger Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 30,
+	"name": "Pantalón Ess Mad Negro",
+	"price": 69.95,
+	"stock": 5,
+	"image": "images/products/30.webp",
+	"category": "pantalones",
+	"description": "Compra Online tu Ess Mad Negro y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 31,
+	"name": "Camisa Amc Cmc Print Hombre",
+	"price": 39.95,
+	"stock": 2,
+	"image": "images/products/31.webp",
+	"category": "camisas",
+	"description": "Compra Online tu Camisa Amc Cmc Print Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 32,
+	"name": "Short Amc Denimpunto Hombre",
+	"price": 71.96,
+	"stock": 14,
+	"image": "images/products/32.webp",
+	"category": "shorts",
+	"description": "Compra Online tu Short Amc Denimpunto Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 33,
+	"name": "Polera Madison Full Zipper Con Capucha Hombre",
+	"price": 53.97,
+	"stock": 17,
+	"image": "images/products/33.webp",
+	"category": "poleras",
+	"description": "Compra Online tu Polera Madison Full Zipper Con Capucha Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 34,
+	"name": "Polera Hypnotic Polh Fly Hombre",
+	"price": 59.97,
+	"stock": 2,
+	"image": "images/products/34.webp",
+	"category": "poleras",
+	"description": "Compra Online tu Polera Hypnotic Polh Fly Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 35,
+	"name": "Casaca Hypnotic Truck Hombre",
+	"price": 119.40,
+	"stock": 20,
+	"image": "images/products/35.webp",
+	"category": "casacas",
+	"description": "Compra Online tu Casaca Hypnotic Truck Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 36,
+	"name": "Polo Aereal Printcamo Hombre",
+	"price": 23.97,
+	"stock": 13,
+	"image": "images/products/36.webp",
+	"category": "polos",
+	"description": "Compra Online tu Polo Aereal Printcamo Hombre y conviértelo en pieza clave de tu outfit esta primavera verano."
+},{
+	"id": 37,
+	"name": "Casaca Hypnotic Sheep Hombre",
+	"price": 119.40,
+	"stock": 11,
+	"image": "images/products/37.webp",
+	"category": "casacas",
+	"description": "Compra Online tu Casaca Hypnotic Sheep Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 38,
+	"name": "Pantalón Bulldenimcer Gris1",
+	"price": 89.95,
+	"stock": 15,
+	"image": "images/products/38.webp",
+	"category": "pantalones",
+	"description": "Compra Online tu Pantalón Bulldenimcer Gris1 y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 39,
+	"name": "Polera Amc Ranglanpatch Hombre",
+	"price": 71.40,
+	"stock": 12,
+	"image": "images/products/39.webp",
+	"category": "poleras",
+	"description": "Compra Online tu Polera Amc Ranglanpatch Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+},{
+	"id": 40,
+	"name": "Jean Hypnotic Cargo Hombre",
+	"price": 104.30,
+	"stock": 4,
+	"image": "images/products/40.webp",
+	"category": "jeans",
+	"description": "Compra Online tu Jean Hypnotic Cargo Hombre y conviértelo en pieza clave de tu outfit esta temporada de primavera verano."
+}
+]

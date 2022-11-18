@@ -1,0 +1,144 @@
+<!-- Navegation-->
+<nav class="nav">
+    <div class="nav__center container">
+        <a href="#!">
+            <div class="nav__logo">
+                <h1>BABYS <span>SENIORS</span></h1>
+            </div>
+        </a>
+        <ul class="nav__list">
+            <a class="nav__link" href="#!">INICIO</a>
+        </ul>
+        <ul class="nav__list">
+            <a class="nav__link" href="#!catalogo-productos">CATALOGO</a>
+        </ul>
+        <ul class="nav__list">
+            <div class="carrito__icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="item__total">{{getTotalAmountCarrito()}}</span>
+            </div>
+        </ul>
+    </div>
+</nav>
+<!-- Carrito-->
+<section class="carrito__overlay">
+    <div class="carrito">
+        <span class="close__carrito">
+            <i class="fa-solid fa-xmark"></i>
+        </span>
+        <h1>Su Carrito</h1>
+
+        <div class="carrito__center">
+            <!-- producto en carrito  -->
+            <div class="carrito__item" ng-repeat="item in carrito">
+                <img ng-src={{item.image}} alt="">
+                <div>
+                    <h3>{{item.name}}</h3>
+                    <p class="price">S/ {{item.total}}</p>
+                </div>
+                <div>
+                    <span>
+                        <i class="fa-solid fa-angle-up" ng-click="increaseAmount(item.id)"></i>
+                    </span>
+                    <p>{{item.amount}}</p>
+                    <span>
+                        <i class="fa-solid fa-angle-down" ng-click="decreaseAmount(item.id)"></i>
+                    </span>
+                </div>
+                <div>
+                    <span class="remove__item">
+                        <i class="fa-solid fa-trash" ng-click="removeItemCart(item.id)"></i>
+                    </span>
+                </div>
+            </div>
+            <!-- producto en carrito  -->
+        </div>
+        <span ng-if="carrito.length > 0">
+            <div class="carrito__footer">
+                <h3>Total: <span class="carrito__total">S/ {{getTotalPriceCarrito()}}</span></h3>
+                <button class="clear__carrito btn" ng-click="removeCart()">
+                    remover carrito
+                </button>
+                <a href="#!place-order" class="btn__pago">
+                    <button class="clear__carrito btn">
+                        Pagar
+                    </button>
+                </a>
+            </div>
+        </span>
+        <span ng-if="!carrito.length > 0">
+            <div class="goto_products">
+                <i class="fa-solid fa-cart-shopping" style="font-size: 5rem; color: #00bbe6;"></i>
+                <h3>¡Tu carrito de compras esta vacío!</h3>
+                <a href="#!catalogo-productos">
+                    <button class="btn"">
+                        Seguir comprando
+                    </button>
+                </a>
+            </div>
+        </span>
+    </div>
+</section>
+<div class="container mb-5">
+    <section class="form-register" style="width: 400px;
+      background: #f5f5f5;
+      padding: 30px;
+      margin: auto;
+      margin-top: 100px;
+      border-radius: 1rem;
+      font-family: 'calibri';
+      color: #000;
+      box-shadow: 0 0 2rem #aaa;">
+        <h4 style="font-weight: bold;
+        color:#000;
+        font-size: 4rem;
+        text-align: center;">Método de pago</h4>
+        <input style="width: 100%;
+        background: #fff;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: #000;" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+        <input style="width: 100%;
+      background: #fff;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      border: 1px solid #1f53c5;
+      font-family: 'calibri';
+      font-size: 18px;
+      color: #000;" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+        <input style="width: 100%;
+      background: #fff;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      border: 1px solid #1f53c5;
+      font-family: 'calibri';
+      font-size: 18px;
+      color: #000;" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+        <input style="width: 100%;
+      background: #fff;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      border: 1px solid #1f53c5;
+      font-family: 'calibri';
+      font-size: 18px;
+      color: #000;" type="password" name="password" id="password" placeholder="Ingrese su Contraseña">
+        <input style="width: 100%;
+      background: #fff;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      border: 1px solid #1f53c5;
+      font-family: 'calibri';
+      font-size: 18px;
+      color: #000;" type="password" name="card" id="card" placeholder="Ingrese su número de tarjeta">
+        <p style="color: #000;">Acepto los <a href="#">Términos y Condiciones</a></p>
+        <input class="botons" type="submit" value="Realizar pago">
+    </section>
+</div>
